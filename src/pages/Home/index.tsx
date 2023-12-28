@@ -40,6 +40,8 @@ export function Home() {
     reset()
   }
 
+  console.log('test')
+
   const task = watch('task')
   const isSubmitDisabled = !task
 
